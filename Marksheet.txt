@@ -1,0 +1,76 @@
+Marksheet
+------------------
+------------------
+
+Total: 58.5/73 = 81%
+
+------------------
+Q1
+--
+2/2 correct movie quote
+2/2 git commands
+
+Q2
+--
+4/4 correct git commands
+
+Q3
+--
+a)
+1/1 correct RA
+1/1 correct DEC
+b)
+2/2 argument regarding northern hemisphere
+1.5/2 argument regarding southern hemisphere
+c)
+1/1 conversion to Alt-Az
+2/2 computing Betelgeuse's Alt over a reasonable time interval
+1/1 realizing that the Sun's Alt is needed to answer this question.
+2/2 computing the Sun's Alt.
+2/2 realizing that the requirements are that Betelgeuse is above the horizon and that the Sun is below the horizon.
+1/1 right number of hours per night (eyeballing is ok).
+
+Q4
+--
+a)
+1/1 saying that JWST can see dimmer things
+2/2 for getting the right flux ratio (1 for right formula, 1 for right answer).
+b)
+3/3 calculating the HST and JWST absolute magnitudes as a function of redshift or distance (1 for formula,  each for each telescope)
+3/3 converting to solar luminosities
+4/4 plots (1 each: full credit for a "perfect" plot, subtract 0.5 for presentation issues or if there is some incorrectness in the plot)
+c)
+2/4 code (0.5 each for each of the steps)
+2/2 multiplying number density by volume to get the number of galaxies
+3/3 correct number of galaxies (0.5 for each type for each telescope)
+2/2 general coding style for all of Q4
+
+**************
+Comments:
+--Some of the numbers for spectroscopic completeness from Coding Lab 4 are not applicable here (the telescopes are different!)
+--Need to use comoving distances because the number densities are in comoving units.
+**************
+
+Q5
+--
+2/2 points for general idea about the key quantity to compute.
+0/4 points for correctly plugging in appropriate numbers (whether directly or by writing out Bayes' theorem)
+0/2 points for a good discussion about whether "free" is good.
+0/4 points for further investigation and discussion of a different word.
+
+Q6
+--
+2/2 points for realizing that this is an inference problem for $\lambda$ (e.g., writing out Bayes' theorem gets full credit, but if the work implicitly implies an understanding, that's ok too).
+1/1 point for realizing that the likelihood function is the product of the likelihood functions of the individual points.
+1/1 point for plugging in Poisson distribution for likelihood.
+2/2 points for implementation of the likelihood.
+2/2 points for correct posterior.
+2/2 points for conclusion that it was probably Stephen selling the cakse.
+0/2 points for some reasoning about the level of confidence.
+2/2 general coding style for all of Q6
+
+**************
+Comments:
+--Need to be careful about how you compare the probabilities...really should be looking at *areas* under the curve. (And the lambda parameter doesn't have to be discrete...one's average could be 5.5 even if only an integer number of cakes is sold)
+--Prior was probably a little too narrow.
+**************
